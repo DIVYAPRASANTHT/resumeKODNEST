@@ -1,0 +1,40 @@
+@media only screen and (max-width:360px){
+    .image{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:450px){
+    tr th{
+        padding:0;
+        }
+    .passport{
+        width: 50%;
+    }
+    .aboutmyself{
+        width:60%;
+        padding: 5px;
+    }
+}
+@media only screen and (max-width:550px){
+    body{
+        font-size: 0.7rem;
+    }
+}
+@media only screen and (max-width:380px){
+    body{
+        font-size: 0.6rem;
+    }
+}
+@media only screen and (max-width:320px){
+    body{
+        font-size: 0.56rem;
+    }
+}
+.header:hover{
+    height: 25px;
+    width: 140px;
+    border: 2px solid rgb(204, 12, 12);
+    background-color: rgb(158, 162, 168);
+    color: white;
+}
